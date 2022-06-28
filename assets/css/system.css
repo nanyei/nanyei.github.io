@@ -1,0 +1,94 @@
+
+.centerbg{background-image: url("https://maomi.muyu.love/wp-json/sakura/v1/image/cover");background-position: center center;background-attachment: inherit;}
+
+
+.l-news-wrap {
+    overflow: hidden;
+    font-size: 0;
+    padding: 15px 0 0;
+}
+.l-re_air, .l-staff, .l-news-wrap {
+    position: relative;
+    z-index: 1;
+    width: 1020px;
+    margin: auto;
+}
+.l-news {
+    float: left;
+    width: 500px;
+}
+.l-twitter {
+    float: right;
+    width: 500px;
+}
+.link-btn-1st_site {
+    color: #ff4eaa;
+    border-color: #ff4eaa;
+}
+.link-btn-radio {
+    color: #ffa200;
+    border-color: #ffa200;
+}
+
+.link-btn-1st_site, .link-btn-radio {
+    border-radius: 10px;
+    margin: 20px 0 0;
+}
+.news-btn-more, .twitter-btn-more, .link-btn-1st_site, .link-btn-radio {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.news-btn-more a, .twitter-btn-more a, .link-btn-1st_site a, .link-btn-radio a {
+    color: inherit;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 26px 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+@media screen and (max-width: 800px){
+.l-re_air, .l-staff, .l-news-wrap {
+    width: 100%;
+}
+}
+@media screen and (max-width: 800px) {
+
+.l-news, .l-twitter {
+    /* float: none; */
+    width: 46%;
+    /* width: 250px; */
+    /* width: 78.125vw; */
+    margin: 0 auto;
+}
+
+}
+@media screen and (max-width: 800px){
+.news-btn-more a, .twitter-btn-more a, .link-btn-1st_site a, .link-btn-radio a {
+    color: inherit;
+    font-size: 9px;
+    font-size: 2.8125vw;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    padding: 4.0625vw 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+}
