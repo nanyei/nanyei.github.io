@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Moe-Mashiro";
+    src: url("Moe-Mashiro.eot"); /* IE9 */
+    src: url("Moe-Mashiro.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("Moe-Mashiro.woff") format("woff"), /* chrome、firefox */
+    url("Moe-Mashiro.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("Moe-Mashiro.svg#Moe-Mashiro") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
